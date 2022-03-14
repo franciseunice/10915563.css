@@ -1,0 +1,88 @@
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:rgb(205, 240, 125);
+}
+li{
+    /* float: right; */
+}
+/* li a{
+    display: flex;
+    flex-direction: column;
+    display: inline;
+    padding: 15px;
+    color:rgb(7, 7, 5);
+    text-decoration: none;
+} */
+
+li a:hover{
+    background-color: rgb(187, 240, 101);
+    padding: 15px;
+}
+ul{
+    display: flex;
+}
+ul li{
+    display: inline-block;
+    line-height: 50px;
+    margin: 0 3rem;
+    
+}
+ul li a{
+    text-decoration: none;
+    
+}
+
+
+ a:link{ 
+    color: rgb(138, 43, 226);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+ a:visited{
+    color:rgb(10, 179, 122)
+} 
+a:hover{
+    color:rgb(63, 138, 236)
+}
+a:active{
+    color:rgb(65, 4, 4)
+}
+
+h2, h3{
+    text-align: center;
+    color: rgb(5, 88, 33);
+}
+
+th, td {
+    padding:15px;
+    text-align: left;
+    border-bottom: 5px solid #ddd;
+}
+tr:hover{ background-color: rgb(207, 241, 226);}
+tr:nth-child(even) { background-color: rgb(155, 243, 159);}
+
+progress[value]{
+    -webkit-appearance: none;
+    width:250px;
+    height:20px;
+    border-radius: 100px;
+    background-color: rgb(2, 36, 20);
+}
+
+input[type=text] {
+    border: 100px solid rgb(2, 61, 41);
+    border-radius: 50px;
+ }
+
+  input[type=button], input[type=submit], input[type=reset] {
+    background-color: #013616;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  
